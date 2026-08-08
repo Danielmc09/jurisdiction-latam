@@ -50,6 +50,7 @@ jurisdiction-kit/
 │   ├── doc-drafter/           ← de la norma a la cláusula
 │   ├── doc-review/            ← audita lo que la empresa ya tiene
 │   ├── corporate-docs/        ← estatutos, actas, misión y visión
+│   ├── founders-and-ip/       ← acuerdo entre socios y cesión de PI
 │   └── compliance-calendar/   ← qué vence y qué umbral cruzaste
 ├── packs/                     ← territorio
 │   ├── _spec.md               ← pack nacional. General, sin sector
