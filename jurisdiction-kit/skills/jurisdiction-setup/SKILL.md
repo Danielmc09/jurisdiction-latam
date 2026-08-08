@@ -7,6 +7,16 @@ description: "[JURISDICTION] Configura el perfil legal preguntando pais, departa
 
 Se corre una vez. Define **qué se carga** en todas las sesiones.
 
+## Requiere
+
+Nada previo. **Es el primer skill que se corre.**
+
+Necesita del humano: país, departamento, municipio, a qué se dedica el
+negocio, si trata datos de terceros, y si ya está constituido.
+
+**Si el usuario no sabe alguna, no la inventes.** Márcala `[SIN DEFINIR]`
+en el perfil y sigue: el perfil se puede completar después.
+
 ## Las cuatro dimensiones
 
 El marco legal de un negocio no lo define solo el país:
@@ -102,6 +112,15 @@ Eso es `jurisdiction-research`.
 
 No la corras sin confirmación: con cuatro capas puede tomar bastantes
 búsquedas.
+
+## Guardrails
+
+Aplican los de `CLAUDE.md`. Los que más se rompen en este skill:
+
+- **No se afirma cumplimiento.** Este skill no evalúa nada, solo configura
+- **Nada sustituye a un abogado local.** Dilo al entregar el perfil
+- **No se escribe una capa con contenido.** Aquí solo se crean archivos
+  vacíos desde plantilla, con todo marcado `[SIN VERIFICAR]`
 
 ## Qué NO hacer
 

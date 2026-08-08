@@ -168,7 +168,7 @@ proyecto.
 
 ---
 
-# Qué NO hacer
+## Qué NO hacer
 
 - **No redactes el acuerdo entre socios completo.** Estructura las nueve
   preguntas, marca las decisiones, y manda lo vinculante a abogado

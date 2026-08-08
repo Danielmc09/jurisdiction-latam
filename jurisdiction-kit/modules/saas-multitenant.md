@@ -58,7 +58,7 @@ validado_por: NO VALIDADO
 - [secundaria] 2026-08-08 · Versionado de textos aceptados con fecha y hash, para poder probar **qué** se aceptó
 - [secundaria] 2026-08-08 · Exportación y supresión verificable, incluida la propagación a copias de respaldo
 
-**Huecos**
+## Huecos declarados
 - [no-verificado] 2026-08-08 · Plazos legales para responder consultas y reclamos → ABOGADO
 - [no-verificado] 2026-08-08 · Plazo y umbral de gravedad para notificar incidentes a la SIC → ABOGADO
 - [no-verificado] 2026-08-08 · Si destruir la llave de cifrado cuenta como supresión válida → ABOGADO

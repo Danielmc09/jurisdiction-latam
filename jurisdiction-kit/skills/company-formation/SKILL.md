@@ -16,22 +16,42 @@ Un mapa con fuentes. **No un instructivo.**
 
 ## Requiere
 
-`jurisdiction-research` corrido para esa jurisdicción
+- `jurisdiction-research` corrido para esa jurisdicción
+- **La capa territorial `packs/<iso>/<municipio>.md`**
+- El sector, si el negocio declaró uno: `sectors/<iso>/<sector>.md`
+
+### `[CRÍTICO]` Constituir es un trámite local
+
+De las siete áreas de abajo, **al menos cuatro son competencia municipal o
+departamental**: el registro mercantil, los impuestos locales, la apertura
+de establecimiento y las licencias del sector.
+
+**Si la capa territorial no existe o está vacía, dilo antes de empezar.**
+Un mapa de constitución construido solo con la norma nacional le sirve a
+nadie: cada paso ocurre ante una entidad local, con su tarifa y su tiempo.
+
+Por cada paso, declara de qué nivel viene la fuente:
+
+```
+Nivel: nacional | departamental | municipal
+```
 
 ## Las siete áreas
 
 1. **Tipo societario** — opciones, responsabilidad, socios mínimos, capital
    mínimo, cuál se usa más para negocios digitales pequeños
-2. **Registro mercantil** — dónde, qué documentos, costo, tiempo, renovación
+2. **Registro mercantil** — **capa territorial**: qué cámara, documentos,
+   costo, tiempo, renovación
 3. **Identificación tributaria** — cómo se obtiene, qué régimen elegir, qué
    obligaciones dispara cada uno
-4. **Obligaciones fiscales periódicas** — qué se declara, cada cuánto,
-   desde qué umbral
+4. **Obligaciones fiscales periódicas** — nacionales y **locales**: qué se
+   declara, cada cuánto, desde qué umbral
 5. **Facturación** — si la electrónica es obligatoria, desde cuándo, qué
    proveedor se requiere
 6. **Seguridad social y laboral** — qué aplica si eres el único, y qué
    cambia al contratar a la primera persona
-7. **Licencias del sector** — según el tipo de negocio declarado
+7. **Licencias del sector** — del pack sectorial. **Suele ser competencia
+   municipal**: verifica el nivel antes de afirmarlo
 
 ## Formato por paso
 
@@ -71,6 +91,15 @@ Confianza:   ALTA (oficial) | MEDIA (secundaria) | BAJA (no verificado)
 
 Un mapa que se presenta como completo y tiene huecos hace más daño que uno
 que declara sus límites.
+
+## Guardrails
+
+Aplican los de `CLAUDE.md`. Los críticos aquí:
+
+- **Una norma se registra en el nivel que le corresponde.** Si un requisito
+  es municipal, no lo presentes como nacional
+- **Los huecos se declaran.** La sección de lo no verificado nunca va vacía
+- **No se recomienda, se expone**
 
 ## Qué NO hacer
 

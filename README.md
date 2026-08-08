@@ -33,6 +33,12 @@ facturación DIAN.
 
 ---
 
+## Empezar
+
+**[QUICKSTART.md](QUICKSTART.md)** — 5 minutos.
+**[SECURITY.md](SECURITY.md)** — qué hace con tu máquina y cómo se mitiga
+la inyección de prompt.
+
 ## Instalación
 
 **Requiere [Claude Code](https://claude.com/claude-code).** No aplica en
@@ -203,6 +209,12 @@ Misma mecánica, con su plantilla y su spec.
 
 **Sin revisor, el pack se publica marcado `NO VALIDADO`.**
 No modifiques los skills: si tu país necesita uno nuevo, abre un issue.
+
+Antes de abrir el PR:
+
+```
+python3 scripts/validate.py
+```
 
 Detalle en `CONTRIBUTING.md`.
 

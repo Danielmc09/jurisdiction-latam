@@ -155,7 +155,7 @@ fecha que no podemos cumplir."
 
 ---
 
-# Qué NO hacer
+## Qué NO hacer
 
 - **No mezcles las tres familias en un documento**
 - No pongas misión ni visión en los estatutos

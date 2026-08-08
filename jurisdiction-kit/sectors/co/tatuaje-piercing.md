@@ -48,7 +48,7 @@ estado: VIGENTE
 **Excepción**
 - [secundaria] 2026-08-08 · Quedan exceptuadas las punciones cuyo objetivo es la colocación de un adorno aplicado mecánicamente (perforación de lóbulo con pistola)
 
-**Huecos**
+## Huecos
 - [no-verificado] 2026-08-08 · Norma equivalente en Ibagué, Medellín, Cali y demás municipios → verificar caso por caso
 - [no-verificado] 2026-08-08 · Forma exacta de la autorización parental: ¿basta acompañamiento, o se exige documento? → ABOGADO
 - [no-verificado] 2026-08-08 · Plazo de prescripción de una reclamación por un procedimiento → ABOGADO. **Determina cuánto conservar el consentimiento**

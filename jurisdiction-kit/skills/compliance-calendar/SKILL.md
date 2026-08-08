@@ -121,7 +121,7 @@ prueba de haber cumplido es tan importante como cumplir.
 
 ---
 
-## Lo que este skill NO hace
+## Qué NO hacer
 
 - **No presenta el calendario como completo.** Deriva lo que el pack marcó;
   lo que el pack no marcó, no existe para él. Ese hueco se declara
