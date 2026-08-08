@@ -1,0 +1,176 @@
+---
+jurisdiccion: CO
+pais: Colombia
+idioma_fuentes: es
+verificado: 2026-08-08
+verificado_por: jurisdiction-research
+validado_por: NO VALIDADO
+estado: VIGENTE
+revisar_cada: 90
+version: 0.1.0
+---
+
+# Colombia
+
+> **NO VALIDADO POR ABOGADO.** Toda salida que use este pack debe
+> advertirlo. Investigación con fuentes oficiales, pendiente de revisión
+> profesional.
+
+---
+
+## 1. Protección de datos personales
+
+**Norma principal**
+- [oficial] 2026-08-08 · Ley Estatutaria 1581 de 2012 · https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981
+
+**Reglamentación**
+- [oficial] 2026-08-08 · Decreto 1377 de 2013, compilado en el Decreto 1074 de 2015
+
+**Autoridad**
+- [oficial] 2026-08-08 · Superintendencia de Industria y Comercio (SIC), a través de la Delegatura para la Protección de Datos Personales (art. 19) · https://www.sic.gov.co
+
+**A quién aplica**
+- [oficial] 2026-08-08 · A cualquier persona natural o jurídica, pública o privada, que trate datos personales. No depende del tamaño de la empresa
+
+**Roles**
+- [oficial] 2026-08-08 · Responsable: quien por sí mismo o en asocio decide sobre la base de datos y su tratamiento
+- [oficial] 2026-08-08 · Encargado: quien realiza el tratamiento por cuenta del Responsable
+- [oficial] 2026-08-08 · Cuando concurran ambas calidades en la misma persona, le son exigibles los deberes de cada una (art. 18, parágrafo)
+
+**Datos sensibles — art. 5**
+- [oficial] 2026-08-08 · Son sensibles los que afectan la intimidad del titular o cuyo uso indebido puede generar discriminación. Incluye origen racial o étnico, orientación política, convicciones religiosas, salud, vida sexual y datos biométricos
+- [oficial] 2026-08-08 · Obligación de informar al titular que, por tratarse de datos sensibles, **no está obligado a autorizar su tratamiento**
+- [oficial] 2026-08-08 · Obligación de informar explícita y previamente cuáles datos son sensibles y su finalidad, y obtener consentimiento expreso
+
+**Menores**
+- [oficial] 2026-08-08 · Todo responsable y encargado que trate datos de niños, niñas y adolescentes debe velar por su uso adecuado, con los principios y obligaciones de la Ley 1581 y su decreto reglamentario
+- [no-verificado] 2026-08-08 · Requisitos específicos de autorización parental para procedimientos sobre menores → PREGUNTAR A ABOGADO
+
+**Deber de informar al titular — art. 12**
+- [oficial] 2026-08-08 · El Responsable debe informar: el tratamiento y su finalidad; el carácter facultativo de responder cuando se trate de datos sensibles o de menores; los derechos del titular; y la identificación, dirección física o electrónica y teléfono del Responsable
+
+**Deberes del Encargado — art. 18**
+- [oficial] 2026-08-08 · Garantizar al titular el pleno y efectivo ejercicio del hábeas data
+- [oficial] 2026-08-08 · Conservar la información bajo las condiciones de seguridad necesarias
+- [oficial] 2026-08-08 · Realizar oportunamente actualización, rectificación o supresión
+- [oficial] 2026-08-08 · Tramitar consultas y reclamos
+- [oficial] 2026-08-08 · **Adoptar un manual interno de políticas y procedimientos**, en especial para la atención de consultas y reclamos (literal f)
+- [oficial] 2026-08-08 · Registrar la leyenda "reclamo en trámite" sobre el dato en discusión
+- [oficial] 2026-08-08 · Insertar la leyenda "información en discusión judicial" cuando corresponda
+- [oficial] 2026-08-08 · Abstenerse de circular información en discusión
+- [oficial] 2026-08-08 · Permitir el acceso únicamente a personas autorizadas
+- [oficial] 2026-08-08 · Informar a la SIC cuando se presenten violaciones a los códigos de seguridad y existan riesgos en la administración de la información
+- [oficial] 2026-08-08 · Cumplir las instrucciones y requerimientos de la SIC
+
+**El manual interno NO es la política de tratamiento**
+- [oficial] 2026-08-08 · La SIC concluyó que una sociedad con calidad de Encargado, pese a aportar su política de protección y tratamiento de datos, no cumplía el deber del literal f) del art. 18, porque ese documento no corresponde al manual interno de políticas y procedimientos. Sanción: 20 SMLMV · https://www.sic.gov.co/boletin-juridico-octubre-2018
+
+**Principios relevantes — art. 4**
+- [oficial] 2026-08-08 · Seguridad (lit. g): manejar la información con medidas técnicas, humanas y administrativas que eviten adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento
+- [oficial] 2026-08-08 · Confidencialidad (lit. h): reserva obligatoria **incluso después de finalizada la relación**
+
+**Registro Nacional de Bases de Datos (RNBD)**
+- [oficial] 2026-08-08 · Obligados a inscribirse: Responsables del Tratamiento con activos totales superiores a 100.000 UVT · [CADUCA] verificar umbral y valor UVT cada año
+
+**Transferencia internacional**
+- [oficial] 2026-08-08 · Se prohíbe la transferencia a países que no proporcionen niveles adecuados de protección, salvo excepciones: autorización expresa e inequívoca del titular; intercambio de datos médicos exigido por el tratamiento del titular; transferencias bancarias o bursátiles; y transferencias en el marco de tratados internacionales
+
+---
+
+## 2. Firma electrónica y documentos digitales
+
+- [oficial] 2026-08-08 · Ley 527 de 1999 · Decreto 2364 de 2012, compilado en el Decreto 1074 de 2015 · https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=50583
+
+**Requisitos de confiabilidad — los dos**
+- [oficial] 2026-08-08 · Los datos de creación de la firma corresponden **exclusivamente al firmante**
+- [oficial] 2026-08-08 · Es posible **detectar cualquier alteración posterior** al mensaje de datos
+- [oficial] 2026-08-08 · Cumplidos ambos, tiene la misma validez y efectos jurídicos que la firma manuscrita
+
+**Firma electrónica vs firma digital**
+- [oficial] 2026-08-08 · La firma digital requiere certificado de entidad de certificación acreditada ante el ONAC. La firma electrónica simple no lo requiere
+
+**Carga de la prueba**
+- [secundaria] 2026-08-08 · Quien provee el método de firma debe asegurar que es técnicamente seguro y confiable, y le corresponde probarlo
+
+**Contrato laboral**
+- [oficial] 2026-08-08 · Decreto 526 de 2021 la ratifica como válida para el contrato individual de trabajo
+
+---
+
+## 3. Facturación y obligaciones fiscales
+
+- [oficial] 2026-08-08 · Autoridad: DIAN · arts. 616-1 y 616-2 del Estatuto Tributario · Resolución 000042 de 2020 y modificaciones · Resolución 000165 de 2023
+
+**Obligados**
+- [oficial] 2026-08-08 · Personas jurídicas: siempre, sin importar ingresos
+- [oficial] 2026-08-08 · Personas naturales comerciantes: al superar 3.500 UVT de ingresos brutos anuales · [CADUCA]
+- [oficial] 2026-08-08 · Régimen SIMPLE: siempre
+- [oficial] 2026-08-08 · Responsables de IVA o INC: siempre
+
+**Sanciones**
+- [oficial] 2026-08-08 · Art. 684-2 ET: desde clausura del establecimiento por 3 días hasta multa del 1% de los ingresos operacionales del año anterior, con tope de 950 UVT · [CADUCA]
+
+---
+
+## 4. Protección al consumidor
+
+- [no-verificado] 2026-08-08 · Ley 1480 de 2011, Estatuto del Consumidor. Alcance sobre servicios digitales B2B, derecho de retracto y garantías **sin verificar en detalle** → PREGUNTAR A ABOGADO
+
+---
+
+## 5. Constitución de empresa
+
+- [no-verificado] 2026-08-08 · Tipos societarios, capital mínimo, costos y tiempos **sin investigar** → correr `company-formation`
+- [oficial] 2026-08-08 · El registro mercantil se lleva ante la Cámara de Comercio de la jurisdicción · renovación anual, a más tardar el 31 de marzo
+
+---
+
+## 6. Relación laboral y contratación
+
+**No competencia post-contractual**
+- [oficial] 2026-08-08 · Art. 44 del CST: no produce efecto alguno la estipulación por la cual el trabajador se obliga a no trabajar en determinada actividad o a no prestar servicios a competidores una vez terminado el contrato
+- [secundaria] 2026-08-08 · Excepción hasta un año para trabajadores técnicos, industriales o agrícolas, con indemnización no inferior a la mitad del salario por el periodo de abstención → CONFIRMAR CON ABOGADO
+
+**Exclusividad durante el contrato**
+- [secundaria] 2026-08-08 · Válida durante la vigencia del contrato → CONFIRMAR ALCANCE CON ABOGADO
+
+**Propiedad intelectual del trabajador**
+- [oficial] 2026-08-08 · Ley 23 de 1982, modificada por la Ley 1915 de 2018
+- [oficial] 2026-08-08 · Art. 30 de la Ley 1450 de 2011: presunción legal sobre los derechos patrimoniales de la propiedad intelectual generada **en virtud de la ejecución del contrato de trabajo**
+- [no-verificado] 2026-08-08 · Alcance de "en ejercicio de sus funciones" frente a obras creadas fuera de ellas durante la vigencia del contrato → PREGUNTAR A ABOGADO. **Es la pregunta más frecuente de fundadores empleados**
+
+---
+
+## 7. Cifras que caducan
+
+| Cifra | Valor | Año | Dónde verificar |
+|---|---|---|---|
+| UVT | $52.374 COP | 2026 | dian.gov.co |
+| Umbral facturación persona natural | 3.500 UVT | 2026 | dian.gov.co |
+| Tope sanción art. 684-2 | 950 UVT | 2026 | dian.gov.co |
+| Umbral RNBD | 100.000 UVT en activos | verificar | sic.gov.co |
+| SMLMV | verificar | 2026 | mintrabajo.gov.co |
+
+**Esta tabla se revisa cada año fiscal, en enero.**
+
+---
+
+## 8. Huecos declarados
+
+### No pude verificar
+- Alcance del Estatuto del Consumidor sobre SaaS B2B → ABOGADO
+- Requisitos de autorización parental para menores en procedimientos → ABOGADO
+- Plazos legales exactos para responder consultas y reclamos → ABOGADO
+- Plazo y umbral de gravedad para notificar incidentes a la SIC → ABOGADO
+- Si el cifrado con destrucción de llave cuenta como supresión válida → ABOGADO
+- Alcance real de la cláusula de PI sobre obras creadas fuera de funciones → ABOGADO
+- Tipos societarios, capital mínimo, costos y tiempos → correr `company-formation`
+
+### Varía por ciudad o municipio
+- Registro mercantil: la Cámara de Comercio cambia por jurisdicción
+- Impuesto de industria y comercio (ICA): tarifa municipal
+
+### Requiere abogado local sí o sí
+- Cualquier redacción de cláusula de limitación de responsabilidad
+- Cualquier afirmación pública de cumplimiento normativo
+- Estructura societaria y su relación con contratos laborales vigentes

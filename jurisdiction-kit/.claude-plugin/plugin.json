@@ -1,0 +1,8 @@
+{
+  "name": "jurisdiction-kit",
+  "version": "0.1.0",
+  "description": "Pregunta en que pais operas, investiga el marco legal contra fuentes oficiales, y arma el paquete de esa jurisdiccion. Cada linea con fuente y fecha. Ningun resultado sustituye a un abogado local.",
+  "author": {
+    "name": "Angel Daniel Mendieta"
+  }
+}
