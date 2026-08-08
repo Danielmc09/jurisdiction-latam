@@ -130,7 +130,7 @@ una plantilla copiada de otro país que nadie volvió a mirar.
 
 ```
 jurisdiction-kit/
-├── skills/                    ← 8 skills, neutrales de país
+├── skills/                    ← 9 skills, neutrales de país
 ├── packs/                     ← territorio
 │   ├── _spec.md · _plantilla.md
 │   ├── _spec-territorial.md · _plantilla-territorial.md
@@ -144,7 +144,7 @@ jurisdiction-kit/
     └── saas-multitenant.md
 ```
 
-Un fork por país serían 151 × N skills. Con esta separación son 8 skills +
+Un fork por país serían 151 × N skills. Con esta separación son 9 skills +
 N capas. Es la diferencia entre un proyecto y un repo abandonado.
 
 **`_spec.md`** dice las reglas del formato. **`_plantilla.md`** es el
