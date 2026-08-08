@@ -48,6 +48,7 @@ jurisdiction-kit/
 │   ├── jurisdiction-research/
 │   ├── company-formation/
 │   ├── doc-drafter/           ← de la norma a la cláusula
+│   ├── doc-review/            ← audita lo que la empresa ya tiene
 │   ├── corporate-docs/        ← estatutos, actas, misión y visión
 │   └── compliance-calendar/   ← qué vence y qué umbral cruzaste
 ├── packs/                     ← territorio
