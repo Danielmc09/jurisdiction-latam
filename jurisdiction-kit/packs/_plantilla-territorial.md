@@ -34,6 +34,11 @@ Uso del suelo · concepto sanitario · licencias locales
 ## Publicidad exterior
 - [ ] `[SIN VERIFICAR]`
 
+## Incentivos de este territorio
+Exenciones locales · tarifas preferenciales · programas de la ciudad ·
+requisitos de presencia o empleo local · **estado: vigente o proyecto**
+- [ ] `[SIN VERIFICAR]`
+
 ## Obligaciones recurrentes de este territorio
 - [recurrente] `[SIN VERIFICAR]`
 

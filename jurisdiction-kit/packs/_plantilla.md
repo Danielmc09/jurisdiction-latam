@@ -56,6 +56,11 @@ Tipos societarios · capital mínimo · forma del acto · contenido mínimo
 legal · control del registro · qué pasa si no se inscribe
 - [ ] `[SIN VERIFICAR]`
 
+## 5-bis. Incentivos y ecosistema
+Incentivos nacionales vigentes · programas de ecosistema · **incentivos
+anunciados sin aprobar, listados aparte**. Todo con estado y fuente.
+- [ ] `[SIN VERIFICAR]`
+
 ## 6. Normas del sector
 **No se listan sectores aquí.** Solo apunta a `sectors/<iso>/`.
 

@@ -80,14 +80,15 @@ Investiga y llena las capas. Toma varias búsquedas.
 ```
 1. jurisdiction-setup       ← dónde, a qué te dedicas
 2. jurisdiction-research    ← el marco legal de tu jurisdicción
-3. company-formation        ← pasos para constituir, con costos y fuentes
-4. corporate-docs           ← estatutos, objeto social, actas
-5. founders-and-ip          ← acuerdo entre socios y cesión de PI
-6. doc-drafter              ← T&C, política de datos, aviso de privacidad
-7. compliance-calendar      ← qué vence y qué umbral vas a cruzar
+3. where-to-incorporate     ← en qué ciudad conviene domiciliar
+4. company-formation        ← pasos para constituir, con costos y fuentes
+5. corporate-docs           ← estatutos, objeto social, actas
+6. founders-and-ip          ← acuerdo entre socios y cesión de PI
+7. doc-drafter              ← T&C, política de datos, aviso de privacidad
+8. compliance-calendar      ← qué vence y qué umbral vas a cruzar
 ```
 
-**No saltes el 5.** El acuerdo entre socios y la cesión de propiedad
+**No saltes el 6.** El acuerdo entre socios y la cesión de propiedad
 intelectual son los dos errores que más empresas matan, y los que menos
 gente resuelve a tiempo.
 
@@ -107,12 +108,13 @@ una plantilla copiada de otro país que nadie volvió a mirar.
 
 ---
 
-## Los ocho skills
+## Los nueve skills
 
 | Skill | Qué hace | Cuándo |
 |---|---|---|
 | `jurisdiction-setup` | Pregunta las cuatro dimensiones | Una vez |
 | `jurisdiction-research` | Investiga y llena las capas | Al inicio y cada 90 días |
+| `where-to-incorporate` | Compara territorios: incentivos, ecosistema y costo real | Antes de elegir dónde |
 | `company-formation` | Mapa para constituir, con costos y confianza por paso | Antes de constituir |
 | `corporate-docs` | Estatutos, actas, libros, misión y visión | Al constituir o reformar |
 | `founders-and-ip` | Acuerdo entre socios y cesión de PI | Antes del segundo socio |

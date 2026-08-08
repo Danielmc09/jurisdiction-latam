@@ -210,6 +210,51 @@ Sectores disponibles para Colombia: ver `sectors/co/`
 
 ---
 
+## 5-bis. Incentivos y ecosistema
+
+> Consumida por `where-to-incorporate`. **Todo incentivo lleva su estado.**
+> Un incentivo anunciado no es un incentivo vigente.
+
+### Nacionales — vigentes
+
+- [oficial] 2026-08-08 · **Zonas Francas**: tarifa preferencial de renta del **20%** frente a la general del 35%, más ventajas aduaneras · requisitos de instalación y compromiso de inversión y empleo · `[VERIFICAR requisitos actuales]`
+- [secundaria] 2026-08-08 · **Art. 256 ET**: deducción del **120%** de lo invertido en proyectos de I+D+i calificados por MinCiencias (100% + 20% adicional) · requiere calificación previa, con documentación y tiempo
+- [secundaria] 2026-08-08 · **Ley 1429 de 2010, art. 65**: progresividad en la tarifa de renta para pequeñas empresas nuevas que se formalicen · **ha tenido modificaciones normativas** → VERIFICAR vigencia y requisitos actuales
+- [secundaria] 2026-08-08 · Exenciones de IVA en exportación de servicios y en ciertas importaciones · aplica a software y servicios digitales exportados
+- [oficial] 2026-08-08 · **MinCiencias**: convocatorias periódicas de beneficios tributarios en CTeI para mipymes y alianzas con grandes empresas · `[recurrente]` cadencia anual · https://minciencias.gov.co
+
+### Programas de ecosistema — no son incentivos tributarios
+
+- [secundaria] 2026-08-08 · **iNNpulsa**, **Fondo Emprender**, **Bancóldex** · capital semilla y financiación · nacionales
+- [secundaria] 2026-08-08 · **Ruta N** (Medellín): en 2025 destinó cerca de **$51.800 millones** a startups de base tecnológica; para 2026, más de 10 bootcamps y programas de preparación para inversión · **Medellín Next** acompaña a 48 startups de base tecnológica
+- [secundaria] 2026-08-08 · **Connect** (Bogotá y Cundinamarca) · red de innovación · programas vigentes incluyen Bootcamp ICONTEC 2026
+- [secundaria] 2026-08-08 · **Cámara de Comercio de Bogotá** · formación, asesorías y talleres
+
+### `[NO VIGENTE — PROYECTO SIN APROBAR]`
+
+- [secundaria] 2026-08-08 · **Bogotá, proyecto de Acuerdo "Ciudad Inteligente"**: propone exención de ICA para nuevas inversiones en sectores priorizados —incluidas tecnologías de la información y telecomunicaciones— y tarifa progresiva de ICA para microempresas que se formalicen entre 2027 y 2030, iniciando en **0% el primer año**
+- **ESTADO: radicado ante el Concejo de Bogotá, pendiente de discusión y aprobación.** No cuenta como beneficio disponible hoy · `[VERIFICAR trámite]`
+
+### Territorialidad del impuesto local (ICA) — decide si mudar el domicilio sirve
+
+- [oficial] 2026-08-08 · Art. 343 de la Ley 1819 de 2016: el ICA se causa a favor del municipio **donde se realiza la actividad gravada**. Si hay establecimiento abierto al público o puntos de venta, donde estos se encuentren; si no existen en ese municipio, donde se perfecciona la operación
+- [oficial] 2026-08-08 · Ley 14 de 1983, art. 32: grava las actividades ejercidas en la jurisdicción **con establecimiento de comercio o sin ellos**, de forma permanente u ocasional
+- [secundaria] 2026-08-08 · Doctrina y práctica de autoridades territoriales: en **servicios de tecnologías de la información prestados remotamente**, el ICA se causa donde se ejecuta materialmente la actividad —donde está la infraestructura humana y técnica— **sin importar el domicilio del cliente, el lugar de facturación ni dónde estén los equipos del contratante**
+- [secundaria] 2026-08-08 · La Corte Constitucional revisó el art. 343 en la Sentencia C-056 de 2019, precisamente por su ambigüedad. **Área con interpretación en disputa**
+
+**Consecuencia práctica:** domiciliar la empresa en una ciudad y programar
+desde otra **no traslada el ICA**. Un incentivo local de ICA no se captura
+con una dirección.
+
+### Huecos
+- [no-verificado] Confirmación de la regla de territorialidad para desarrollo de software con un contador → **CRÍTICO si se evalúa mover el domicilio**
+- [no-verificado] Requisitos vigentes de Zonas Francas para empresas de servicios → ABOGADO o contador
+- [no-verificado] Si la Ley 1429 art. 65 sigue aplicando y bajo qué condiciones → CONTADOR
+- [no-verificado] Cómo se prorratea el ICA al operar en varios municipios → CONTADOR
+- [no-verificado] Incentivos de Ibagué, Cali, Barranquilla y otras ciudades → sin investigar
+
+---
+
 ## 8-bis. Obligaciones recurrentes y disparadores
 
 > Consumida por `compliance-calendar`. Toda línea trae marcador, entidad y
