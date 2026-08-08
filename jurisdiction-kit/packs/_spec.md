@@ -164,7 +164,7 @@ se mapea sin huecos.
 3. **Ninguna línea cita un blog**
 4. **Ninguna cifra sin año**
 5. **Ninguna norma de otro país**, ni "por analogía"
-6. La sección 8 nunca se omite
+6. La sección 9 nunca se omite
 
 ---
 

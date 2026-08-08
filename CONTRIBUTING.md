@@ -7,9 +7,9 @@ Lo más valioso que puedes hacer.
 1. **Lee `jurisdiction-kit/packs/_spec.md` completo.** Si el pack no sigue
    el formato, no se puede mezclar con los demás
 2. Corre `jurisdiction-research` para tu país
-3. Completa las **ocho secciones obligatorias**. Si una no aplica en tu
+3. Completa las **nueve secciones obligatorias**. Si una no aplica en tu
    país, decláralo con fuente
-4. **La sección 8, "huecos declarados", nunca va vacía.** Si te quedó
+4. **La sección 9, "huecos declarados", nunca va vacía.** Si te quedó
    vacía, la investigación está incompleta
 5. Consigue revisión de un abogado de esa jurisdicción
 6. Abre el PR con: el pack, el nombre y matrícula del revisor, y la fecha
