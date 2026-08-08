@@ -86,9 +86,17 @@ carga:
   - modules/<modulo>.md
 ```
 
-Crea los archivos que falten desde sus plantillas, con todos los campos
-marcados `[SIN VERIFICAR]`. **No los llenes tú.** Eso es
-`jurisdiction-research`.
+Crea los archivos que falten copiando su plantilla:
+
+| Capa | Plantilla | Destino |
+|---|---|---|
+| Nacional | `packs/_plantilla.md` | `packs/<iso>.md` |
+| Territorial | `packs/_plantilla-territorial.md` | `packs/<iso>/<municipio>.md` |
+| Sectorial | `sectors/_plantilla.md` | `sectors/<iso>/<sector>.md` |
+| Módulo | `modules/_plantilla.md` | `modules/<modulo>.md` |
+
+Todos los campos quedan marcados `[SIN VERIFICAR]`. **No los llenes tú.**
+Eso es `jurisdiction-research`.
 
 ### 6. Propón la investigación
 
