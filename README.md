@@ -142,6 +142,10 @@ una plantilla copiada de otro país que nadie volvió a mirar.
 ```
 jurisdiction-kit/
 ├── skills/                    ← 9 skills, neutrales de país
+├── CLAUDE.md                  ← guardrails compartidos
+├── sources/                   ← DÓNDE buscar en cada país
+│   ├── _spec.md
+│   └── co.md                  ← entidades y portales. Capa más estable
 ├── packs/                     ← territorio
 │   ├── _spec.md · _plantilla.md
 │   ├── _spec-territorial.md · _plantilla-territorial.md
@@ -161,6 +165,18 @@ N capas. Es la diferencia entre un proyecto y un repo abandonado.
 **`_spec.md`** dice las reglas del formato. **`_plantilla.md`** es el
 archivo que copias y llenas.
 
+### Las tres capas, por estabilidad
+
+| Capa | Contiene | Cambia | Se valida con |
+|---|---|---|---|
+| `sources/` | Entidades y portales | Casi nunca. Revisión anual | Nada — se ve a simple vista |
+| `skills/` | El método | Rara vez | Uso |
+| `packs/` `sectors/` `modules/` | Afirmaciones normativas | Cada año | **Un abogado** |
+
+**Tu pack lo generas tú.** Los packs del repo son ejemplos de referencia
+hasta que un abogado de esa jurisdicción los firme. Lo que sí usas tal
+cual es `sources/`, porque dice dónde buscar y eso no caduca.
+
 ---
 
 ## Las reglas que lo hacen confiable
@@ -168,7 +184,9 @@ archivo que copias y llenas.
 1. Cuatro datos por línea: **nivel de fuente, fecha, afirmación, URL**
 2. Jerarquía: oficial → compilador → firma de abogados (marcada) →
    **blog nunca se cita**
-3. Toda cifra lleva **unidad y año**
+3. Toda cifra lleva **unidad y año**, y toda afirmación oficial lleva su
+   **cita normativa** — `Ley 1581/2012 art. 18`. No rutas profundas: se
+   pudren. Dónde resolverlas vive en `sources/`
 4. **Ninguna salida concluye que algo "cumple"**
 5. La sección de huecos **nunca va vacía**
 6. Una norma se registra **en el nivel que le corresponde**, no donde se
@@ -183,7 +201,7 @@ archivo que copias y llenas.
 
 | País | Nacional | Territorial | Sectores | Validado por abogado |
 |---|---|---|---|---|
-| 🇨🇴 Colombia | `co.md` | Bogotá | tatuaje-piercing | **NO** |
+| 🇨🇴 Colombia | `co.md` *(ejemplo)* | Bogotá | tatuaje-piercing | **NO** |
 | 🇵🇪 Perú | — | — | — | — |
 | 🇪🇨 Ecuador | — | — | — | — |
 | 🇲🇽 México | — | — | — | — |

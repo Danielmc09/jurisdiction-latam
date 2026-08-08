@@ -65,8 +65,13 @@ def check_layer(p, need_estado=True):
     if re.search(r"^## .*[Hh]uecos", t, re.M) is None: warn(rel, "sin seccion de huecos declarados")
     for m in re.finditer(r"^- \[([a-z-]+)\]", t, re.M):
         if m.group(1) not in NIVELES: err(rel, f"marcador desconocido: [{m.group(1)}]")
-    for m in re.finditer(r"\[(oficial|secundaria)\][^\n]*", t):
-        if "http" not in m.group(0): warn(rel, f"afirmacion sin URL: {m.group(0)[:60]}...")
+    CITA = re.compile(r"(Ley|Decreto|Resoluci[oó]n|Acuerdo|Ordenanza|C[oó]digo|Sentencia|Circular|art\.|Art\.|CST|ET)\s", re.I)
+    for m in re.finditer(r"\[oficial\][^\n]*", t):
+        if not CITA.search(m.group(0)) and "http" not in m.group(0):
+            warn(rel, f"[oficial] sin cita normativa: {m.group(0)[:60]}...")
+    for m in re.finditer(r"\[secundaria\][^\n]*", t):
+        if "http" not in m.group(0):
+            warn(rel, f"[secundaria] sin fuente identificable: {m.group(0)[:60]}...")
 
 for d, needs in (("packs", True), ("sectors", True), ("modules", True)):
     for p in sorted((KIT/d).rglob("*.md")):
@@ -76,6 +81,7 @@ for d, needs in (("packs", True), ("sectors", True), ("modules", True)):
 for f in ("README.md","CONTRIBUTING.md","LICENSE",".claude-plugin/marketplace.json"):
     if not (ROOT/f).exists(): err(f, "falta")
 if not (KIT/"CLAUDE.md").exists(): err("jurisdiction-kit/CLAUDE.md", "faltan los guardrails compartidos")
+if not (KIT/"sources"/"_spec.md").exists(): err("sources/_spec.md", "falta el spec del catalogo de fuentes")
 for d in ("packs","sectors","modules"):
     if not (KIT/d/"_spec.md").exists() and not list((KIT/d).glob("_spec*.md")):
         err(f"{d}/_spec.md", "falta el spec de la capa")

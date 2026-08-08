@@ -5,6 +5,9 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/).
 ## [Sin publicar]
 
 ### Agregado
+- `sources/<iso>.md` — catálogo de **dónde buscar** en cada país: entidades
+  y portales raíz. Es la capa más estable y la que `jurisdiction-research`
+  carga antes de la primera búsqueda
 - `jurisdiction-kit/CLAUDE.md` con los guardrails compartidos del plugin
 - `scripts/validate.py` — valida frontmatter, secciones obligatorias,
   marcadores de las capas y presencia de URL
@@ -22,6 +25,11 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/).
   constitución de S.A.S. y obligaciones recurrentes
 
 ### Cambiado
+- **El ancla de una afirmación oficial es la cita normativa, no la URL.**
+  Las rutas profundas de portales gubernamentales se pudren; una URL muerta
+  en el repo parece autoritativa y da 404. `Ley 1581/2012 art. 18` no caduca
+- `packs/co.md` pasa a ser **ejemplo de referencia**. El pack de cada
+  usuario se genera local con `jurisdiction-research`
 - Modelo de cuatro dimensiones: territorio, sector, arquitectura y etapa
 - El pack nacional vuelve a ser **general**: la normativa sectorial sale a
   `sectors/` y la de arquitectura a `modules/`

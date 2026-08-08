@@ -33,11 +33,35 @@ esa jurisdicción, el valor es `NO VALIDADO` y todas las salidas lo advierten.
 
 ## Formato de línea — invariante
 
-Toda afirmación normativa lleva **cuatro cosas**. Sin las cuatro, no entra.
+Toda afirmación lleva **cuatro cosas**. Sin las cuatro, no entra.
 
 ```
-- [nivel] <fecha> · <afirmación> · <URL de la fuente>
+- [nivel] <fecha> · <afirmación> · <ancla>
 ```
+
+### El ancla depende del nivel
+
+| Nivel | Ancla obligatoria | URL |
+|---|---|---|
+| `[oficial]` | **Cita normativa** — `Ley 1581/2012 art. 18 lit. f` | Opcional |
+| `[secundaria]` | **Fuente identificable** — autor o firma | **Sí** |
+| `[no-verificado]` | A quién preguntar | — |
+
+**Por qué la cita y no la URL:** los portales gubernamentales reorganizan
+rutas constantemente. `Ley 1581/2012 art. 18` no caduca; una ruta profunda
+sí. Una URL muerta en el repo es peor que ninguna: parece autoritativa y da
+404.
+
+**Dónde buscar** cada cita vive en `sources/<iso>.md`, que es la capa
+estable. El skill resuelve la cita a una URL vigente cuando hace falta.
+
+### La línea tiene que sostenerse sola
+
+Los skills extraen **líneas sueltas**, no archivos: `compliance-calendar`
+saca una obligación, `doc-drafter` saca una para citarla en una cláusula.
+
+Si el ancla está solo en el encabezado del bloque, la línea viaja sin
+fuente y la cláusula generada dice "lo exige la ley" sin poder decir dónde.
 
 ### Marcadores de obligación — para el calendario
 

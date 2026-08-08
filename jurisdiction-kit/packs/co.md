@@ -12,8 +12,15 @@ version: 0.1.0
 
 # Colombia
 
-> **NO VALIDADO POR ABOGADO.** Toda salida que use este pack debe
-> advertirlo. Investigación con fuentes oficiales, pendiente de revisión
+> **EJEMPLO DE REFERENCIA · NO VALIDADO POR ABOGADO.**
+>
+> Este pack existe para mostrar **cómo se ve un pack bien formado**. No es
+> el pack de nadie: el tuyo lo genera `jurisdiction-research` en tu
+> máquina, a partir de `sources/co.md`.
+>
+> Toda salida que lo use debe advertir que no está validado. Cuando un
+> abogado colombiano lo revise y firme, pasará a ser un pack validado y
+> este aviso cambia. Investigación con fuentes oficiales, pendiente de revisión
 > profesional.
 
 ---

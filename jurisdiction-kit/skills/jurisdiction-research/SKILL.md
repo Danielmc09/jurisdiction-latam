@@ -18,6 +18,17 @@ verificación. Si no tiene los cuatro, no entra al archivo.
 
 `jurisdiction-setup` corrido · búsqueda web
 
+## Primero: carga el catálogo de fuentes
+
+**`sources/<iso>.md` se lee antes de la primera búsqueda.** Dice qué
+entidad regula cada área en ese país y cuál es su portal.
+
+Sin él, buscas a ciegas y terminas citando blogs.
+
+**Si no existe para esa jurisdicción, créalo primero** desde
+`sources/_spec.md`. Es un archivo corto y es la capa más estable del
+proyecto: se revisa una vez al año.
+
 ## Jerarquía de fuentes — estricta
 
 | Nivel | Fuente | Uso |
@@ -91,9 +102,20 @@ Toda cifra lleva **unidad y año**:
 
 ```
 - [oficial] <fecha> · Umbral X: N <unidad tributaria local>
-  · valor de la unidad en <año>: <monto> · <URL oficial>
+  · valor de la unidad en <año>: <monto> · <cita normativa>
   · [CADUCA] revisar cada año fiscal
 ```
+
+## El ancla de cada línea
+
+| Nivel | Qué se guarda |
+|---|---|
+| `[oficial]` | **La cita normativa.** `Ley 1581/2012 art. 18 lit. f` |
+| `[secundaria]` | Autor o firma, y URL |
+
+**No quemes rutas profundas a normas.** Se pudren, y una URL muerta en el
+pack parece autoritativa y da 404. La cita normativa no caduca, y `sources/`
+dice dónde resolverla.
 
 Las unidades tributarias cambian anualmente en casi todos los países.
 **Una cifra sin año es una cifra inútil.**
