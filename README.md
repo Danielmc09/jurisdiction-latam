@@ -35,6 +35,11 @@ facturación DIAN.
 
 ## Instalación
 
+**Requiere [Claude Code](https://claude.com/claude-code).** No aplica en
+claude.ai ni en la app de escritorio. No hay servidor MCP, ni CLI en Python
+o Node: cada skill es un archivo `SKILL.md` en Markdown que Claude Code
+carga como instrucciones, no como código que se ejecuta.
+
 ```
 /plugin marketplace add Danielmc09/jurisdiction-latam
 /plugin install jurisdiction-kit@jurisdiction-latam
@@ -56,7 +61,7 @@ Pregunta las cuatro dimensiones que definen tu marco legal:
 
 | Dimensión | Ejemplo |
 |---|---|
-| **Territorio** | Colombia → Cundinamarca → Ibagué |
+| **Territorio** | Colombia → Tolima → Ibagué |
 | **Sector** | Fintech, salud, agro, o ninguno |
 | **Arquitectura** | SaaS multi-tenant, marketplace, o ninguna |
 | **Etapa** | Constituido o en proceso |
