@@ -39,6 +39,20 @@ Toda afirmación normativa lleva **cuatro cosas**. Sin las cuatro, no entra.
 - [nivel] <fecha> · <afirmación> · <URL de la fuente>
 ```
 
+### Marcadores de obligación — para el calendario
+
+Además del nivel de fuente, toda obligación que se repita o se dispare
+lleva su marcador. **Sin marcador, `compliance-calendar` no la ve.**
+
+| Marcador | Cuándo | Formato |
+|---|---|---|
+| `[recurrente]` | Se repite en ciclo fijo | `cada <ciclo> · vence <fecha o regla>` |
+| `[umbral]` | Se activa al cruzar una cifra | `al superar <cifra + unidad + año>` |
+| `[evento]` | Se activa por un hecho | `cuando <hecho> · plazo <tiempo>` |
+
+Toda obligación marcada lleva además **ante quién** se cumple y **qué pasa
+si no**. Una obligación sin consecuencia declarada no se puede priorizar.
+
 ### Niveles de fuente
 
 | Nivel | Significado | ¿Se cita? |
@@ -118,6 +132,13 @@ intelectual del trabajador · contratistas independientes
 ### 8. Cifras que caducan
 Tabla consolidada de toda cifra del pack con su año y dónde verificarla.
 **Es la sección que se revisa cada año fiscal.**
+
+### 8-bis. Obligaciones recurrentes y disparadores
+Tabla consolidada de todo lo marcado `[recurrente]`, `[umbral]` y
+`[evento]` en el pack. Es la sección que consume `compliance-calendar`.
+
+**Los umbrales son los que más daño hacen**: no tienen fecha, se cruzan sin
+avisar, y cuando alguien lo nota ya se incumplió.
 
 ### 9. Huecos declarados
 ```

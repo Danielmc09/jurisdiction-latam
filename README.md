@@ -48,7 +48,8 @@ jurisdiction-kit/
 │   ├── jurisdiction-research/
 │   ├── company-formation/
 │   ├── doc-drafter/           ← de la norma a la cláusula
-│   └── corporate-docs/        ← estatutos, actas, misión y visión
+│   ├── corporate-docs/        ← estatutos, actas, misión y visión
+│   └── compliance-calendar/   ← qué vence y qué umbral cruzaste
 ├── packs/                     ← territorio
 │   ├── _spec.md               ← pack nacional. General, sin sector
 │   ├── _spec-territorial.md

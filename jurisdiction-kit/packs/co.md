@@ -210,6 +210,33 @@ Sectores disponibles para Colombia: ver `sectors/co/`
 
 ---
 
+## 8-bis. Obligaciones recurrentes y disparadores
+
+> Consumida por `compliance-calendar`. Toda línea trae marcador, entidad y
+> consecuencia.
+
+### Recurrentes
+- [recurrente] Renovación de la matrícula mercantil · cada año · **vence el 31 de marzo** · ante la Cámara de Comercio · consecuencia: la matrícula queda sin renovar y puede acarrear sanción · [oficial]
+- [recurrente] Revisión de cifras que caducan (UVT y umbrales) · cada año fiscal · ante DIAN · consecuencia: cálculos con valores viejos · [oficial]
+
+### Umbrales
+- [umbral] Facturación electrónica obligatoria para persona natural comerciante · al superar **3.500 UVT de ingresos brutos anuales** · ante DIAN · consecuencia: sanciones del art. 684-2 ET · [oficial]
+- [umbral] Inscripción en el RNBD · al superar **100.000 UVT en activos totales** como Responsable · ante SIC · consecuencia: incumplimiento del régimen de datos · [oficial] · **verificar umbral vigente**
+
+### Eventos
+- [evento] Facturación electrónica obligatoria · cuando se constituye persona jurídica o se opta por régimen SIMPLE · desde el primer peso · ante DIAN · [oficial]
+- [evento] Notificar a la SIC · cuando se presente una violación a los códigos de seguridad con riesgo para los titulares · plazo: `[NO VERIFICADO]` → ABOGADO · [oficial]
+- [evento] Adoptar manual interno de políticas y procedimientos · cuando se empieza a tratar datos personales · ante nadie, pero exigible en investigación · consecuencia: sanción — la SIC impuso 20 SMLMV por esta omisión · [oficial]
+- [evento] Régimen reforzado de datos sensibles · cuando se empiezan a tratar datos de salud o de menores · [oficial]
+- [evento] Inscripción de artistas ante la autoridad sanitaria · ver `sectors/co/tatuaje-piercing.md` · [secundaria]
+
+### Sin fecha verificada
+- [no-verificado] Plazos de respuesta a consultas y reclamos de titulares → ABOGADO
+- [no-verificado] Plazo para notificar incidentes a la SIC → ABOGADO
+- [no-verificado] Periodicidad obligatoria de actas del máximo órgano en una S.A.S. → ABOGADO
+
+---
+
 ## 9. Huecos declarados
 
 ### No pude verificar
