@@ -3,7 +3,7 @@
   "name": "jurisdiction-latam",
   "description": "Capa de jurisdiccion para America Latina. Skills neutrales de pais mas paquetes de datos legales por jurisdiccion, con fuente oficial y fecha en cada linea. Complementa claude-for-legal, no lo reemplaza.",
   "owner": {
-    "name": "Angel Daniel Mendieta"
+    "name": "Angel Mendieta"
   },
   "plugins": [
     {
@@ -12,7 +12,7 @@
       "source": "./jurisdiction-kit",
       "description": "Pregunta en que pais operas, investiga el marco legal contra fuentes oficiales, y arma el paquete de esa jurisdiccion: proteccion de datos, firma electronica, facturacion, constitucion de empresa. Cada linea con fuente y fecha. Ningun resultado sustituye a un abogado local.",
       "author": {
-        "name": "Angel Daniel Mendieta"
+        "name": "Angel Mendieta"
       }
     }
   ]
