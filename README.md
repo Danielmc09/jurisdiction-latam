@@ -47,7 +47,8 @@ jurisdiction-kit/
 │   ├── jurisdiction-setup/    ← pregunta país, municipio, sector
 │   ├── jurisdiction-research/
 │   ├── company-formation/
-│   └── doc-drafter/           ← de la norma a la cláusula
+│   ├── doc-drafter/           ← de la norma a la cláusula
+│   └── corporate-docs/        ← estatutos, actas, misión y visión
 ├── packs/                     ← territorio
 │   ├── _spec.md               ← pack nacional. General, sin sector
 │   ├── _spec-territorial.md

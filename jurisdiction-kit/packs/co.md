@@ -134,8 +134,39 @@ version: 0.1.0
 
 ## 5. Constitución de empresa
 
-- [no-verificado] 2026-08-08 · Tipos societarios, capital mínimo, costos y tiempos **sin investigar** → correr `company-formation`
-- [oficial] 2026-08-08 · El registro mercantil se lleva ante la Cámara de Comercio de la jurisdicción · renovación anual, a más tardar el 31 de marzo
+**Tipo societario más usado: S.A.S.**
+- [oficial] 2026-08-08 · Ley 1258 de 2008 · https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=34130
+- [oficial] 2026-08-08 · Se constituye por **documento privado**, sin escritura pública, inscrito en el Registro Mercantil de la Cámara de Comercio del domicilio principal
+- [oficial] 2026-08-08 · **Excepción**: si se aportan bienes cuya transferencia requiere escritura pública, la constitución debe hacerse igual (art. 5, par. 2)
+- [oficial] 2026-08-08 · Puede constituirse con **uno o más accionistas**, que no responden por las obligaciones de la sociedad (art. 1)
+- [secundaria] 2026-08-08 · **No hay capital mínimo** establecido
+
+**Contenido mínimo del documento de constitución — art. 5**
+- [oficial] 2026-08-08 · Nombre, documento de identidad y domicilio de los accionistas
+- [oficial] 2026-08-08 · Razón social seguida de "Sociedad por Acciones Simplificada" o de la sigla **S.A.S.**
+- [oficial] 2026-08-08 · Domicilio principal y de las sucursales que se establezcan en el mismo acto
+- [oficial] 2026-08-08 · Término de duración. **Si nada se expresa, se entiende indefinido**
+- [oficial] 2026-08-08 · Enunciación clara y completa de las actividades principales, **a menos que se exprese que podrá realizar cualquier actividad comercial o civil lícita. Si nada se expresa, se entiende cualquier actividad lícita**
+- [oficial] 2026-08-08 · Capital autorizado, suscrito y pagado; clase, número y valor nominal de las acciones; y forma y términos de pago
+- [secundaria] 2026-08-08 · Plazo máximo para pagar el capital suscrito: **2 años**
+- [oficial] 2026-08-08 · Forma de administración, con nombre y documento de identidad de los administradores
+
+**Control del registro**
+- [oficial] 2026-08-08 · Las Cámaras de Comercio verifican la conformidad del acto constitutivo y **se abstienen de inscribirlo si se omite alguno de los requisitos del art. 5** (art. 6)
+
+**`[CRÍTICO]` Mientras no se inscriba**
+- [oficial] 2026-08-08 · Se entiende para todos los efectos legales que la sociedad **es de hecho** si hay varios asociados. **Si es una sola persona, responde personalmente por las obligaciones que contraiga** (art. 7)
+
+**Prueba de existencia**
+- [oficial] 2026-08-08 · Se prueba con certificación de la Cámara de Comercio donde conste que no está disuelta ni liquidada (art. 8)
+
+**Registro mercantil**
+- [oficial] 2026-08-08 · Ante la Cámara de Comercio del domicilio principal · renovación anual, a más tardar el 31 de marzo
+- [no-verificado] 2026-08-08 · Tarifas y tiempos → varían por cámara, ver capa territorial
+
+**Huecos**
+- [no-verificado] 2026-08-08 · Otros tipos societarios (S.A., Ltda., E.U.) y cuándo convienen → ABOGADO
+- [no-verificado] 2026-08-08 · Si la Ley 2294 de 2023 modificó algo del art. 5 aplicable aquí → VERIFICAR. El compilador señala una modificación al artículo 4
 
 ---
 
