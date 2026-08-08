@@ -64,9 +64,25 @@ Una cifra sin año es una cifra inútil.
 
 ---
 
-## Secciones obligatorias — las ocho
+## Las cuatro capas
 
-Un pack sin las ocho está incompleto. Si una no aplica en ese país, se
+Este spec describe **el pack nacional**. Hay tres capas más, cada una con
+su propio spec:
+
+| Capa | Ruta | Spec |
+|---|---|---|
+| Nacional | `packs/<iso>.md` | este archivo |
+| Territorial | `packs/<iso>/<municipio>.md` | `_spec-territorial.md` |
+| Sectorial | `sectors/<iso>/<sector>.md` | `../sectors/_spec.md` |
+| Módulo | `modules/<modulo>.md` | por arquitectura de negocio |
+
+**El pack nacional es general.** No contiene sectores ni normas locales.
+
+---
+
+## Secciones obligatorias — las nueve
+
+Un pack sin las nueve está incompleto. Si una no aplica en ese país, se
 declara: `No aplica en <país>. Fuente: <URL>`.
 
 ### 1. Protección de datos personales
@@ -90,15 +106,20 @@ Norma · si aplica a servicios digitales · derecho de retracto · garantías
 Tipos societarios · capital mínimo · dónde se registra · costo · tiempo ·
 renovación
 
-### 6. Relación laboral y contratación
+### 6. Normas del sector
+**No se listan sectores aquí.** Esta sección solo apunta a
+`sectors/<iso>/`. Un pack nacional con normativa de un rubro concreto es
+inservible para los demás.
+
+### 7. Relación laboral y contratación
 Exclusividad · no competencia y su validez post-contractual · propiedad
 intelectual del trabajador · contratistas independientes
 
-### 7. Cifras que caducan
+### 8. Cifras que caducan
 Tabla consolidada de toda cifra del pack con su año y dónde verificarla.
 **Es la sección que se revisa cada año fiscal.**
 
-### 8. Huecos declarados
+### 9. Huecos declarados
 ```
 ## No pude verificar
 - <tema> · <por qué> · PREGUNTAR A: <abogado | contador | entidad>

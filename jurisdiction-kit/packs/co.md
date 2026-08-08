@@ -114,7 +114,21 @@ version: 0.1.0
 
 ## 4. Protección al consumidor
 
-- [no-verificado] 2026-08-08 · Ley 1480 de 2011, Estatuto del Consumidor. Alcance sobre servicios digitales B2B, derecho de retracto y garantías **sin verificar en detalle** → PREGUNTAR A ABOGADO
+- [oficial] 2026-08-08 · Ley 1480 de 2011, Estatuto del Consumidor · autoridad: SIC · https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44306
+- [oficial] 2026-08-08 · **Modificada por la Ley 2439 de 2024**, que actualiza el marco de comercio electrónico
+
+**Derecho de retracto — art. 47**
+- [oficial] 2026-08-08 · Aplica a ventas a distancia o por métodos no tradicionales, y a contratos con financiación otorgada por el proveedor, que por su naturaleza no deban consumirse o no hayan comenzado a ejecutarse antes de 5 días
+- [oficial] 2026-08-08 · Plazo máximo: **5 días hábiles** desde la entrega del bien o, en prestación de servicios, desde la celebración del contrato
+- [oficial] 2026-08-08 · **Excepción relevante para SaaS: no aplica en contratos de prestación de servicios cuya prestación haya comenzado con el acuerdo del consumidor**
+- [secundaria] 2026-08-08 · Ley 2439 de 2024: en comercio electrónico la devolución del dinero no puede exceder **15 días calendario** desde el ejercicio del retracto
+
+**Obligaciones de información en comercio electrónico — art. 50**
+- [oficial] 2026-08-08 · Informar medios de pago, tiempo de entrega, **el derecho de retracto y el procedimiento para ejercerlo**, y el precio total incluyendo todos los impuestos y gastos
+- [oficial] 2026-08-08 · **Publicar en el mismo medio y en todo momento las condiciones generales de los contratos**, fácilmente accesibles y disponibles para consulta, impresión y descarga, antes y después de la transacción, aunque no se haya expresado intención de contratar
+
+**Hueco que permanece**
+- [no-verificado] 2026-08-08 · Si un negocio que contrata una herramienta para su operación es "consumidor" bajo esta ley, o si la relación es entre empresas y queda fuera → PREGUNTAR A ABOGADO. **Determina si estas obligaciones aplican a un SaaS B2B**
 
 ---
 
@@ -125,7 +139,17 @@ version: 0.1.0
 
 ---
 
-## 6. Relación laboral y contratación
+## 6. Normas del sector
+
+- [n/a] 2026-08-08 · Esta sección del pack nacional **no lista sectores**.
+  La normativa sectorial vive en `sectors/co/<sector>.md` y se carga solo
+  si el negocio declara ese sector en el setup.
+
+Sectores disponibles para Colombia: ver `sectors/co/`
+
+---
+
+## 7. Relación laboral y contratación
 
 **No competencia post-contractual**
 - [oficial] 2026-08-08 · Art. 44 del CST: no produce efecto alguno la estipulación por la cual el trabajador se obliga a no trabajar en determinada actividad o a no prestar servicios a competidores una vez terminado el contrato
@@ -141,7 +165,7 @@ version: 0.1.0
 
 ---
 
-## 7. Cifras que caducan
+## 8. Cifras que caducan
 
 | Cifra | Valor | Año | Dónde verificar |
 |---|---|---|---|
@@ -155,10 +179,11 @@ version: 0.1.0
 
 ---
 
-## 8. Huecos declarados
+## 9. Huecos declarados
 
 ### No pude verificar
-- Alcance del Estatuto del Consumidor sobre SaaS B2B → ABOGADO
+- **Si un negocio que contrata una herramienta es "consumidor" bajo la Ley 1480** → ABOGADO. Determina si el retracto y las obligaciones de comercio electrónico aplican a un SaaS B2B
+
 - Requisitos de autorización parental para menores en procedimientos → ABOGADO
 - Plazos legales exactos para responder consultas y reclamos → ABOGADO
 - Plazo y umbral de gravedad para notificar incidentes a la SIC → ABOGADO
@@ -166,9 +191,10 @@ version: 0.1.0
 - Alcance real de la cláusula de PI sobre obras creadas fuera de funciones → ABOGADO
 - Tipos societarios, capital mínimo, costos y tiempos → correr `company-formation`
 
-### Varía por ciudad o municipio
+### Varía por territorio → ver `packs/co/<municipio>.md`
 - Registro mercantil: la Cámara de Comercio cambia por jurisdicción
 - Impuesto de industria y comercio (ICA): tarifa municipal
+- Normas sanitarias y de establecimiento: competencia distrital o municipal
 
 ### Requiere abogado local sí o sí
 - Cualquier redacción de cláusula de limitación de responsabilidad

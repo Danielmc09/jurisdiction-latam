@@ -30,7 +30,42 @@ verificación. Si no tiene los cuatro, no entra al archivo.
 Si solo hay nivel 4, la línea se marca `[NO VERIFICADO]` y pasa a las
 preguntas para el abogado.
 
-## Las seis áreas
+## Qué se investiga — según el perfil
+
+Lee `perfil-legal.md` y trabaja **solo las capas declaradas**. Cada capa
+tiene su propio archivo de destino:
+
+| Capa | Destino | Qué se investiga |
+|---|---|---|
+| Nacional | `packs/<iso>.md` | Las seis áreas de abajo. **General, sin sector** |
+| Territorial | `packs/<iso>/<municipio>.md` | **Solo lo que cambia** respecto de lo nacional |
+| Sectorial | `sectors/<iso>/<sector>.md` | Norma de la actividad, su autoridad, habilitaciones |
+| Módulo | `modules/<modulo>.md` | Obligaciones por arquitectura de negocio |
+
+### Regla de nivel — la que más se incumple
+
+**Una norma se registra en el nivel que le corresponde, no en el que la
+encontraste.**
+
+Si hallas un acuerdo distrital de una ciudad, va al pack de esa ciudad —
+nunca al nacional. Un usuario de otro municipio siguiendo una norma que no
+lo cubre es el peor fallo posible de este sistema.
+
+Ante la duda sobre el nivel de una norma: **investígalo**. Su título casi
+siempre lo dice (ley, decreto nacional, ordenanza departamental, acuerdo
+distrital, resolución municipal).
+
+### Regla de generalidad del pack nacional
+
+**El pack nacional no contiene normativa sectorial.** Ni un ejemplo, ni una
+mención de paso. Su sección de sector solo apunta a `sectors/<iso>/`.
+
+Un pack nacional con normas de un rubro concreto es inservible para todos
+los demás rubros.
+
+---
+
+## Las seis áreas del pack nacional
 
 Por área: cuál es la norma, quién la vigila, a quién aplica, qué obliga,
 qué cifras tiene.
@@ -46,7 +81,9 @@ qué cifras tiene.
    retracto, garantías
 5. **Constitución de empresa** — tipos societarios, capital mínimo,
    registro, tiempos, costos
-6. **Normas del sector** — según el tipo de negocio del setup
+6. **Normas del sector** — **no se investiga aquí.** Esta sección del pack
+   nacional solo apunta a `sectors/<iso>/`. La investigación sectorial es
+   un archivo aparte, y declara su nivel territorial
 
 ## Marcado obligatorio de cifras
 
@@ -60,6 +97,19 @@ Toda cifra lleva **unidad y año**:
 
 Las unidades tributarias cambian anualmente en casi todos los países.
 **Una cifra sin año es una cifra inútil.**
+
+## Investigación territorial
+
+Para la capa municipal, busca específicamente:
+
+- Cámara de comercio o registro mercantil de esa jurisdicción
+- Impuestos locales de la actividad
+- Autoridad sanitaria local y sus normas propias
+- Uso del suelo y requisitos de apertura de establecimiento
+- Publicidad exterior
+
+**Solo se registra lo que difiere de lo nacional.** Repetir la norma
+nacional en cada municipio hace el sistema inmantenible.
 
 ## Formato de salida
 

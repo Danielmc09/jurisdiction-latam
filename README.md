@@ -43,14 +43,29 @@ Este paquete llena ese hueco.
 
 ```
 jurisdiction-kit/
-├── skills/          ← neutrales, se mantienen una vez
-│   ├── jurisdiction-setup/
+├── skills/                    ← neutrales, se mantienen una vez
+│   ├── jurisdiction-setup/    ← pregunta país, municipio, sector
 │   ├── jurisdiction-research/
-│   └── company-formation/
-└── packs/           ← uno por país
-    ├── _spec.md     ← el formato. Léelo antes de aportar
-    └── co.md        ← Colombia
+│   ├── company-formation/
+│   └── doc-drafter/           ← de la norma a la cláusula
+├── packs/                     ← territorio
+│   ├── _spec.md               ← pack nacional. General, sin sector
+│   ├── _spec-territorial.md
+│   ├── co.md                  ← Colombia, nacional
+│   └── co/bogota.md           ← capa municipal
+├── sectors/                   ← por actividad, opcional
+│   ├── _spec.md
+│   └── co/tatuaje-piercing.md
+└── modules/                   ← por arquitectura de negocio
+    └── saas-multitenant.md
 ```
+
+**Cuatro dimensiones, no una.** El marco legal de un negocio lo definen su
+territorio (país → departamento → municipio), su sector, su arquitectura y
+su etapa. Las cuatro se suman.
+
+**El pack nacional es general.** Nunca contiene normativa de un rubro: eso
+vive en `sectors/`, y se carga solo si el negocio lo declara.
 
 Un fork por país significaría mantener 151 × N skills. Con esta separación
 son ~15 skills + N packs. Es la diferencia entre un proyecto y un repo
@@ -62,7 +77,7 @@ abandonado.
 
 | País | Pack | Estado | Validado por abogado |
 |---|---|---|---|
-| 🇨🇴 Colombia | `co.md` | Investigado | **NO** |
+| 🇨🇴 Colombia | `co.md` | Investigado · 9 secciones · sector tatuaje/piercing · multi-tenant B2B2C | **NO** |
 | 🇵🇪 Perú | — | — | — |
 | 🇪🇨 Ecuador | — | — | — |
 | 🇲🇽 México | — | — | — |
